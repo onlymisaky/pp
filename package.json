@@ -1,0 +1,30 @@
+{
+  "name": "@onlymisaky/pp",
+  "version": "0.0.1",
+  "description": "project cli",
+  "main": "index.js",
+  "bin": {
+    "pp": "bin/pp.js"
+  },
+  "files": [
+    "lib/",
+    "bin/"
+  ],
+  "scripts": {
+    "lint": "eslint './{bin,lib}/**/*.{js,json}'"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "onlymisaky@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^8.1.0",
+    "inquirer": "^8.1.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2"
+  }
+}
